@@ -1,7 +1,15 @@
-# Method Thiking
+# Pentesting Check Point
 
-### 워드프레스(WordPress)
-> Enumeration 단계
+### Web App 테스팅 (Web App Testing)
+> Recon
+ - TOOL
+   - [Directory Brute Forcing] : gobuster, dirb 
+   - [Custom List] : cewl
+ - 체크 포인트
+   - [x] 접근 가능한 hidden 디렉토리나 파일에 대한 brute forcing 시도
+
+### WordPress 테스팅 (WordPress)
+> Recon
  - TOOL : wpscan
    - Usage
      - Enum
@@ -16,3 +24,9 @@
  - [x] wordpress안에서 username에 guessing 할 수 있는 정보 체크
 > TIP
  - [x] LFI가 가능할 때  php filter를 이용해 wp-config.php 파일을 읽을 수 있는지 시도
+
+### Gaining Access
+> Desc
+ - 목표 시스템에 대한 Shell을 얻었을 때 체크
+> 체크 포인트
+ - [x] /home/ 밑의 .ssh에서 ssh 공개키를 얻을 수 있는지 체크(id_rsa)
