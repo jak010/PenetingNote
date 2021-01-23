@@ -1,12 +1,16 @@
 # Pentesting Check Point
 
 ### Web App 테스팅 (Web App Testing)
+
+#### Directory Brute Forcing
 > Recon
  - TOOL
-   - [Directory Brute Forcing] : gobuster, dirb 
-   - [Custom List] : cewl
+   - [Directory Brute Forcing] : gobuster, dirb, ffuf, wfuzz
+   - [Custom List Generate TOOL] : cewl
  - 체크 포인트
-   - [x] 접근 가능한 hidden 디렉토리나 파일에 대한 brute forcing 시도
+   - [x] Web 사이트에서 공개된 접근 가능한 경로외에 접근할 수 있는 경로 체크
+   - [x] Hidden Directory는 경로 추적을 여러번 해야될 수 있음
+   - [x] WORD LIST를 하나만 쓰지 말고 여러번 시도해볼 것
 
 ### WordPress 테스팅 (WordPress)
 > Recon
