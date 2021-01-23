@@ -16,6 +16,7 @@
        - wpscan --url http://{TARGET} -w {WORDLIST}
      - Password Brute forcing
        - wpscan --url http://{TARGET} -w {WORDLIST} --usernames a,b,c
+       - wpscan --url http://{TARGET} --passwords {WORDLIST_PAT} --usernames A,B,C
 > 체크 포인트
  - [x] wpscan을 이용해 나온 결과로 취약한 Plugin을 사용하는지 체크 
  - [x] exploit-db에서 해당 Plugin으로 사용가능한 취약점 체크
