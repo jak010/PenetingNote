@@ -10,6 +10,7 @@
  - 체크 포인트
    - [x] Web 사이트에서 공개된 접근 가능한 경로외에 접근할 수 있는 경로 체크
    - [x] Hidden Directory는 경로 추적을 여러번 해야될 수 있음 (sub-directory 존재)
+     -[x] Brute Forcing으로 정보가 추출이 늦을 때 단순히 "1"에서부터 n까지 Guessing
    - [x] WORD LIST를 하나만 쓰지 말고 여러번 시도해볼 것
 
 ### WordPress 테스팅 (WordPress)
