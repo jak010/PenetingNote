@@ -9,7 +9,7 @@
    - [Custom List Generate TOOL] : cewl
  - 체크 포인트
    - [x] Web 사이트에서 공개된 접근 가능한 경로외에 접근할 수 있는 경로 체크
-   - [x] Hidden Directory는 경로 추적을 여러번 해야될 수 있음
+   - [x] Hidden Directory는 경로 추적을 여러번 해야될 수 있음 (sub-directory 존재)
    - [x] WORD LIST를 하나만 쓰지 말고 여러번 시도해볼 것
 
 ### WordPress 테스팅 (WordPress)
