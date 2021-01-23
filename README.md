@@ -12,6 +12,7 @@
    - [x] Hidden Directory는 경로 추적을 여러번 해야될 수 있음 (sub-directory 존재)
      - [x] Brute Forcing으로 정보가 추출이 늦을 때 단순히 "1"에서부터 n까지 Guessing  
    - [x] WORD LIST를 하나만 쓰지 말고 여러번 시도해볼 것
+   - [x] 파일 확장자로 접근 가능할 수도 있으니 각 툴에 맞게 확장자를 넣어서 시도해볼 것
 
 ### WordPress 테스팅 (WordPress)
 > Recon
